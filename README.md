@@ -11,5 +11,3 @@ docker build -t moneroocean-proxy:latest . ; docker run --detach --name monerooc
 
 # test
 docker build -t moneroocean-proxy:latest . ; docker run -it --rm --name moneroocean-proxy -v xmrig-proxy --publish 3333:3333 moneroocean-proxy:latest bash
-
-# not working at this time, need more testing
